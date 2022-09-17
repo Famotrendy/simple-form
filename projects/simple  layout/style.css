@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primary-color: rgb(44, 43, 43);
+    --secondary-color:  rgb(111, 219, 252);
+    --font-weight: 700px;
+    --hfont-size: 3rem; 
+    --smallfsize: 0.8rem;
+    --smallfw:bold;
+    --headerheight: 3rem;
+    --marginb: 3rem;
+    --headbtn: 150px;
+    --bdbtn: 100px;
+}
+.logo{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.hnav{
+    height: var(--headerheight);
+    display: flex;
+    padding: 20px 0;
+    margin: auto;
+    max-width: 1024px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hnav ul li{
+    list-style: none;
+    margin: 0 20px ;
+    display: inline-block;
+}
+.hnav ul li a{
+    text-decoration: none;
+    color: var(--primary-color);
+    float: right;
+    position: relative;
+    font-size: var(--smallfsize);
+    font-weight: var(--smallfw);
+    transition: 0.5s ease-in-out;
+}
+a {
+    font-size: var(--smallfsize);
+   
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.342),rgba(255, 255, 255, 0.144)) ,url(img\ 4.jpg);
+    height: calc(100vh - var(--headerheight));
+    background-position: center;
+    background-size: cover;
+
+}
+
+.sub_banner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.sub_banner button{
+    background-color: var(--primary-color);
+    padding:  12px 0;
+    width: var(--headbtn);
+    border: none;
+    color: #fff;
+    font-size: var(--smallfsize);
+}
+.fhead{
+    font-size: var(--hfont-size);
+    font-weight:bolder;
+    color: var(--primary-color);
+}
+.fbody{
+    font-size: 2.5rem;
+    font-weight: 5px;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.info  {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    width: 1024px;
+    margin-bottom: 100px;
+}
+i{
+    font-size: 2rem;
+
+}
+
+.icons{
+    width: 100px;
+    border-radius: 100%;
+    border: 4px solid, black;
+}
+.dscrip{
+    font-weight: bolder;
+    margin-bottom: var(--marginb);
+}
+.feature{
+    height: 100vh;
+    background-color: rgba(43, 43, 43, 0.13);
+    padding-top: 10px 0 ;
+}
+.sub_banner{
+    padding: 10px 0;
+
+}
+.sub_feature{
+    top: 50;
+}
+
+.rlines{
+    width: 15%;
+    height: 3px;
+    background-color: var(--secondary-color);
+}
