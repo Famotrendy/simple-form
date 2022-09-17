@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{  
+ background: #c9ccd1;   
+}
+.container{
+    padding: 5%;
+    box-shadow: 0 0 20px #404041;
+}
+.inside_container{
+  background-color: #fff;
+  display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 3.5rem;
+}
+
+.img-fluid{
+  width: 100%;
+  height: 100vh;
+
+}
+::placeholder{
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+.incontainer{
+  width: 100%;
+}
+.forms{
+  margin: 30px 0;
+}
+.lgform{
+  width: 100%;
+  padding:  10% 0;
+}
+.textarea{
+  width: 75%;
+  padding: 1.5rem 0;
+
+}
+
+h3{
+  font-size: 2rem;
+  color: #404041;
+}
+.textarea ::placeholder{
+ font-size: 15px;
+}
+input[type=checkbox]{
+  padding: 0;
+  margin: 0;
+}
+.form-style input{  
+      border:0;  
+      height:50px; 
+      border-radius:0;  
+      border-bottom:1px solid #ebebeb; 
+            
+ }  
+ .form-style input:focus{  
+ border-bottom:1px solid #007bff;       
+ box-shadow:none;  
+ outline:0;  
+ background-color:#ebebeb;       
+ }  
+ .check{
+margin: 0;
+display: inline;
+ }
+ .password{
+  display: flex;
+  gap: 200px;
+  padding: 20px 0;
+ }
+ .sideline {  
+   display: flex;  
+   width: 75%;  
+   justify-content: center;  
+   align-items: center;  
+   text-align: center;  
+   color:#ccc;  
+   padding: 8px 0;
+ }
+ a{
+  font-size: 17px;
+  font-weight: 500;
+  color: #007bff;
+  text-decoration: none;
+ }  
+ button{  
+ height:100%;
+ width: 75%;     
+ padding:20px 20px ;  
+ text-align: center;
+ border-radius: 5px;
+ border: none;
+ font-size: 1rem;
+ font-weight: bolder;
+ color: #fff;
+ cursor: pointer;
+}  
+.submit{
+  background-color: #19191a;
+}
+.fb{
+  background-color: #007bff;
+}
+ .sideline:before,  
+ .sideline:after {  
+   content: '';  
+   border-top: 1px solid #ebebeb;  
+   margin: 0 20px 0 0;  
+   flex: 1 0 20px;  
+ }  
+ .sideline:after {  
+   margin: 0 0 0 20px;  
+ }  
+.fa-facebook{
+  background-color: #075af5;
+ }
+.signup{
+  justify-content: center;  
+   align-items: center;  
+   text-align: center; 
+  margin-left: -100px;
+  padding-top: 30px;
+}
